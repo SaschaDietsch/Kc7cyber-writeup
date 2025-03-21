@@ -1,3 +1,109 @@
+- [Section 1: "KQL 101"](#section-1-kql-101)
+  - [Question 1:](#question-1)
+  - [Question 2:](#question-2)
+  - [Question 3:](#question-3)
+  - [Question 4:](#question-4)
+  - [Question 5:](#question-5)
+  - [Question 6:](#question-6)
+  - [Question 7:](#question-7)
+  - [Question 8:](#question-8)
+  - [Question 9:](#question-9)
+  - [Question 10:](#question-10)
+  - [Question 11:](#question-11)
+  - [Question 12:](#question-12)
+  - [Section summary](#section-summary)
+- [Section 2: "Welcome to Valdoria"](#section-2-welcome-to-valdoria)
+  - [Question 1:](#question-1-1)
+  - [Question 2:](#question-2-1)
+  - [Question 3:](#question-3-1)
+  - [Question 4:](#question-4-1)
+  - [Question 5:](#question-5-1)
+  - [Question 6:](#question-6-1)
+  - [Question 7:](#question-7-1)
+  - [Question 8:](#question-8-1)
+  - [Section summary](#section-summary-1)
+- [Section 3: Plenty of Phish](#section-3-plenty-of-phish)
+  - [Question 1:](#question-1-2)
+  - [Question 2:](#question-2-2)
+  - [Question 3:](#question-3-2)
+  - [Question 4:](#question-4-2)
+  - [Question 5:](#question-5-2)
+  - [Question 6:](#question-6-2)
+  - [Question 7:](#question-7-2)
+  - [Question 8:](#question-8-2)
+  - [Question 9](#question-9-1)
+  - [Question 10](#question-10-1)
+  - [Question 11](#question-11-1)
+  - [Question 12:](#question-12-1)
+  - [Question 13:](#question-13)
+  - [Question 14:](#question-14)
+  - [Question 15:](#question-15)
+  - [Question 16:](#question-16)
+  - [Question 17:](#question-17)
+  - [Question 18:](#question-18)
+  - [Question 19:](#question-19)
+  - [Question 20:](#question-20)
+  - [Question 21:](#question-21)
+  - [Question 22:](#question-22)
+  - [Question 23:](#question-23)
+  - [Question 24:](#question-24)
+  - [Question 25:](#question-25)
+  - [Question 26:](#question-26)
+  - [Section summary](#section-summary-2)
+- [Section 4: A scandal](#section-4-a-scandal)
+  - [Question 1:](#question-1-3)
+  - [Question 2:](#question-2-3)
+  - [Question 3:](#question-3-3)
+  - [Question 4:](#question-4-3)
+  - [Question 5:](#question-5-3)
+  - [Question 6:](#question-6-3)
+  - [Question 7](#question-7-3)
+  - [Question 8:](#question-8-3)
+  - [Question 9](#question-9-2)
+  - [Question 10](#question-10-2)
+  - [Question 11](#question-11-2)
+  - [Question 12](#question-12-2)
+  - [Question 13](#question-13-1)
+  - [Question 14](#question-14-1)
+  - [Question 15](#question-15-1)
+  - [Question 16](#question-16-1)
+  - [Question 17](#question-17-1)
+  - [Question 18](#question-18-1)
+  - [Question 19](#question-19-1)
+  - [Question 20](#question-20-1)
+  - [Question 21](#question-21-1)
+  - [Question 22](#question-22-1)
+  - [Question 23](#question-23-1)
+  - [Question 24](#question-24-1)
+  - [Question 25](#question-25-1)
+  - [Question 26](#question-26-1)
+  - [Question 27](#question-27)
+  - [Question 28](#question-28)
+  - [Question 29](#question-29)
+  - [Question 30](#question-30)
+  - [Question 31](#question-31)
+  - [Question 32](#question-32)
+  - [Question 33](#question-33)
+  - [Question 34](#question-34)
+  - [Section summary](#section-summary-3)
+- [Bonus](#bonus)
+  - [Section 4, Question 9](#section-4-question-9)
+  - [Section 4 Question 12](#section-4-question-12)
+- [Final remarks](#final-remarks)
+  - [Phishing awareness is critical](#phishing-awareness-is-critical)
+  - [Detection without response is ineffective](#detection-without-response-is-ineffective)
+  - [Access control weaknesses](#access-control-weaknesses)
+  - [Credential theft and password hygiene](#credential-theft-and-password-hygiene)
+  - [Lack of network egress monitoring](#lack-of-network-egress-monitoring)
+  - [Persistence \& Post-Exploitation Activity](#persistence--post-exploitation-activity)
+- [Next steps](#next-steps)
+  - [Incident Response \& Remediation](#incident-response--remediation)
+  - [Security Awareness Training](#security-awareness-training)
+  - [Implement MFA \& Password Policies](#implement-mfa--password-policies)
+  - [Improve Logging \& Monitoring](#improve-logging--monitoring)
+  - [Harden infrastructure](#harden-infrastructure)
+
+
 **A Scandal in Valdoria**
 
 This is the second game in KC7cyber. It will teach you about basic **Kusto Query Language (KQL)** Syntax, including the commands "where", "take" and "distinct". You will learn to effectively filter data and apply time-based filters. You will correlate events in order to create a full timeline of the attacks. Additionally, you will learn and to interpret Powershell scripts and the corresponding malicious commands run by attackers.
@@ -129,6 +235,16 @@ This time you have to replace `<list_variable_name>` with a name you want to giv
 ## Question 12:
 Congratulations! You have passed **KQL 101** and have learnt. Type in `ready` to progress to the next section. 
 
+## Section summary
+You learned the fundamentals of KQL:
+
+-    How to look at sample data with `take`,
+-    Narrow results with `where`,
+-    Count events with `count`,
+-    And remove duplicates with `distinct`.
+
+More importantly, you started thinking like an analyst. The goal isn't just to write queries, it's to extract meaning. You also got your first exposure to real-world workflow issues, like null fields, timestamps, and understanding your environment before diving in. Don't underestimate how important that is.
+
 # Section 2: "Welcome to Valdoria"
 ## Question 1:
 Now the story starts. You are introduced as an incident responder to the Valdorian Times. Extract the Newspaper Printer's name out of the screenshot provided.
@@ -193,6 +309,17 @@ Copy the name of the document (`OpEdFinal_to_print.docx`) and write it down in y
 After questioning Ronnie you get the answer that she did not send the email and does not recall any unusual emails or weird activity on her computer. This suggests the sender may have been spoofed. Let's write that down as a hypothesis.
 
 Answer the question with `yes`.
+
+## Section summary
+This section introduced the initial incident and gave you your first real investigation targets. You pulled user metadata, email addresses, and timelines and learned how to start validating or challenging assumptions.
+
+Takeaways:
+
+-    Most investigations begin with incomplete information.
+-    You used simple queries to prove/refute who sent what, and when.
+-    You built intuition on how attackers may try to spoof identities or cover tracks.
+
+This is how real investigations work.
 
 # Section 3: Plenty of Phish
 This is where things start getting real. We're no longer just poking around benign data, because we're uncovering signs of real malicious activity. Suspicious emails, document downloads, external infrastructure. Those are the classic hallmarks of a phishing campaign and they are all here.
@@ -461,6 +588,17 @@ Those are `whoami` to figure out the currently logged on user, `ipconfig`to figu
 
 ## Question 26:
 We hit a dead end. The logs on Sonias machine are uninteresting. It seems that the attackers didn't find what they were looking for there. The question is if we should stop the investigation there. My gut feeling and the evidences that we found before (infection of Linus Torvalds PC) suggest that we should definitively continue.
+
+## Section summary
+This was your deep dive into phishing tradecraft. You tracked suspicious emails, extracted IOCs, confirmed link clicks via outbound network traffic, and validated file drops via file creation logs. You even compared hashes and investigated differences.
+
+You also saw:
+
+-    Not all users behave the same (some clicked, some didn't).
+-    Hash changes don't always mean new malware.
+-    Indicators like domains, hashes, and IPs must be collected methodically.
+
+This section mirrors what a real threat hunter or SOC analyst does after a phishing alert - not just reacting, but expanding the blast radius to find who else was hit.
 
 # Section 4: A scandal
 Now that you've got the basics of KQL under your belt, it's time to start putting it to work in an actual scenario. In this section, the investigation kicks off. You're being brought in to support an internal incident at the Valdorian Times.
@@ -967,6 +1105,17 @@ Just type in `wooo` and continue.
 
 ## Question 34
 Just type in `shadows` to finish the module and get that badge. It is hinting that you may have only gotten them partly. Let's hope the Valdorian Times implements the suggestions.
+
+## Section summary
+The full attack chain comes into focus here. You went from email delivery to lateral movement and eventual data exfiltration. You correlated multiple artifacts: files, processes, usernames, passwords, network flows, and even organizational structure.
+
+You also uncovered:
+
+-    Multiple attack waves using the same payloads but slightly altered artifacts.
+-    Security alerts that were missed or ignored — leading to longer dwell time.
+-    Gaps in access control (SharePoint open to the internet?!), egress filtering, and user awareness.
+
+By this point, you weren't just solving challenges — you were documenting an incident in a way that could feed into an actual IR report. That's the level we're aiming for.
 
 # Bonus
 In this section we will handle the part of the investigation, where we could sidetracked easily.
